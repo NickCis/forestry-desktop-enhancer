@@ -4,6 +4,10 @@
   "main": "manifest.json",
   "repository": "https://github.com/nickcis/forestry-desktop-enhancer",
   "author": "Nicolas Cisco <ncis20@gmail.com>",
+  "scripts": {
+    "watch": "NODE_ENV=development webpack --watch",
+    "build": "NODE_ENV=production webpack"
+  },
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.0.0-0",
