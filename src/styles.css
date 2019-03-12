@@ -1,0 +1,17 @@
+/* Pages */
+.main-content > div:nth-child(2) {
+  display: flex;
+  align-items: stretch;
+}
+
+.main-content > div:nth-child(2) > div {
+  position: unset;
+  top: auto;
+  left: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.ProseMirror.ProseMirror.ProseMirror {
+  overflow: auto;
+}

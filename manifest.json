@@ -1,0 +1,14 @@
+{
+  "name": "Forestry desktop enhancer",
+  "version": "1.0",
+  "description": "Enhace forestry web for desktop",
+  "manifest_version": 2,
+  "background": {},
+  "content_scripts": [
+    {
+      "matches": ["https://app.forestry.io/sites/*"],
+      "js": ["dist/plugin.js"],
+      "css": ["dist/styles.css"]
+    }
+  ]
+}
