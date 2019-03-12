@@ -1,4 +1,5 @@
 import * as pages from './pages';
+import * as sections from './sections';
 
 function wait(isReady, cb, t = 100) {
   let canceled = false;
@@ -35,6 +36,7 @@ function run(config) {
 
 const config = {
   pages,
+  sections,
 };
 let currentWaiting = run(config);
 
