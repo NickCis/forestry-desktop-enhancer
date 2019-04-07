@@ -13,7 +13,9 @@ Features:
 
 1. `yarn install`
 2. `yarn watch`
-3. Import extension: https://developer.chrome.com/extensions/getstarted#manifest
+3. Run: (You can do it in any of the following ways)
+  - `yarn launch`
+  - Import extension: https://developer.chrome.com/extensions/getstarted#manifest
 
 ## Building
 

@@ -6,13 +6,16 @@
   "author": "Nicolas Cisco <ncis20@gmail.com>",
   "scripts": {
     "watch": "NODE_ENV=development webpack --watch",
-    "build": "NODE_ENV=production webpack"
+    "build": "NODE_ENV=production webpack && node build.js",
+    "launch": "node launch.js"
   },
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.0.0-0",
     "@babel/preset-env": "^7.3.4",
+    "adm-zip": "^0.4.13",
     "babel-loader": "^8.0.5",
+    "chrome-launch": "^1.1.4",
     "css-loader": "^2.1.1",
     "mini-css-extract-plugin": "^0.5.0",
     "webpack": "^4.29.6",
